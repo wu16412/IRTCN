@@ -1,0 +1,15 @@
+# IRTCN environment. Copy and edit, then: source env.sh
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export IRTCN="${IRTCN:-$ROOT}"
+export DATA_DIR="${DATA_DIR:-$IRTCN/data/TB_Chest_Radiography_Database}"
+export CROP_DIR="${CROP_DIR:-$IRTCN/data/TB_Chest_Radiography_Database_HERSEG_CROP}"
+export PYTHON="${PYTHON:-python}"
+export SEED="${SEED:-4444}"
+export PREPROCESS="${PREPROCESS:-grayscaled}"
+export NAM_FEATURE_DIR="${NAM_FEATURE_DIR:-$IRTCN/mapping/features/nam_cxr_light_wld144}"
+export TEXTURE_CKPT="${TEXTURE_CKPT:-$IRTCN/mapping/models/texture/seed_${SEED}/best.pth}"
+
+echo "[env] IRTCN=$IRTCN"
+echo "[env] DATA_DIR=$DATA_DIR"
+echo "[env] CROP_DIR=$CROP_DIR"
+echo "[env] PYTHON=$PYTHON"

@@ -1,0 +1,14 @@
+torch>=1.12
+torchvision
+timm
+numpy
+scipy
+matplotlib
+tqdm
+pyyaml
+statsmodels
+torchmetrics
+scikit-learn
+medmnist
+pillow
+autoattack

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Weights, logs, features, data (not for GitHub)
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.log
+data/TB_*
+mapping/models/ChestXRay*/
+mapping/models/texture/
+mapping/features/
+diffusion/results*/
+diffusion/logs*/
+diffusion/results_eval*/
+logs*/
+
+# Build
+NAM-CXR-light/**/build/
+*.o
+*.so
