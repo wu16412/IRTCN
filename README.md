@@ -1,7 +1,5 @@
 # IRTCN
 
-结核病胸片最小可运行代码：冻结 Mapping → 条件扩散模型（CDM），骨干为 TransNeXt / ViT / Swin，可选 NAM-CXR-light WLD-144 纹理 CDM。不含控制实验、evidence chain、inspect_layer 等附加代码。
-
 Minimum runnable code for **IRTCN**: frozen Mapping → Conditional Diffusion Model (CDM) on tuberculosis chest X-rays, with TransNeXt / ViT / Swin backbones and an optional Texture CDM guided by NAM-CXR-light WLD-144 features.
 
 This repository contains **only the main training / testing pipeline**. Probe, control, evidence-chain, and layer-inspection experiments are not included.
